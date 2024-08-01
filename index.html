@@ -54,7 +54,7 @@
     <script>
         async function fetchFaults() {
             try {
-                const response = await fetch('http://your_server_ip/faults.json');
+                const response = await fetch('http://192.168.87.134 /faults.json');
                 const faults = await response.json();
                 const faultsContainer = document.getElementById('faults');
                 faultsContainer.innerHTML = '';
