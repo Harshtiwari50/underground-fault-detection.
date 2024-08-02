@@ -54,7 +54,7 @@
     <script>
         async function fetchFaults() {
     try {
-        const response = await fetch('http://192.168.87.134/faults.json');
+        const response = await fetch('https://192.168.87.134/faults.json');sw
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
